@@ -1,0 +1,15 @@
+[user]
+    name = Amaury Medeiros
+    email = amaurymedeiros@gmail.com
+[color]
+    ui = auto
+[push]
+    default = simple
+[alias]
+    preb = pull --rebase
+    amend = commit --amend
+    bra = checkout -b
+    cm = commit -m
+    tree = log --graph --full-history --all --color --pretty=tformat:"%x1b[33m%h%x09%x09%x1b[32m%d%x1b[0m%x1b[34m%an%x1b[0m"
+[core]
+    editor = vim
