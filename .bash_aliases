@@ -5,6 +5,7 @@ alias grep='grep --color'
 
 alias ..='cd ..'
 alias ...='cd ../..'
+alias back='cd -'
 
 alias mkdir='mkdir -p'
 mjump() { mkdir -p "$@" && cd "$@"; }
